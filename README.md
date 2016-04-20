@@ -1,7 +1,9 @@
 # Mastering Markdown Examples
 To test some basic markdown syntax, based on [Mastering Markdown](https://www.gitbook.com/book/roachhd/master-markdown/details)
 
-Bonus: GitHub **official** document of [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+Bonus: 
+* GitHub **official** document of [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+* Online Markdown Cheatsheet (PDF version) https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
 # <a name="Table of Content"></a> Table of Content
 [Anchors](#Anchors)  
