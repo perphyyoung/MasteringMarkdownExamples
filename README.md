@@ -1,64 +1,66 @@
 # Mastering Markdown Examples
-To test some basic markdown syntax, based on [Mastering Markdown on gitbook](https://www.gitbook.com/book/roachhd/master-markdown/details).
+Showing some basic markdown syntax, based on [Mastering Markdown on gitbook](https://www.gitbook.com/book/roachhd/master-markdown/details).
 
 Useful links:  
 * GitHub **official** document of [Mastering Markdown guides](https://guides.github.com/features/mastering-markdown/)
 * Online markdown cheatsheet (PDF version) https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf
 
-## <a name='TableOfContent'> Table of Content </a>
-[1. Anchors](#Anchors)  
-[2. Block Elements](#BlockElements)  
-[3. Blockquotes](#Blockquotes)  
-[4. Code Blocks](#CodeBlocks)  
-[5. Horizontal Rules](#HorizontalRules)  
-[6. Images](#Images)  
-[7. Links](#Links)  
-[8. Lists](#Lists)  
-[9. Special Character](#SpecialCharacter)  
-[10. Tables](#Tables)  
-[11. Titles](#Titles)  
-[12. GFM](#GFM)  
-[13. Writing on GitHub](#WritingOnGitHub)
+## Table of Content
+[1. Anchors](#1-anchors)  
+[2. Block Elements](#2-block-elements)  
+[3. Blockquotes](#3-blockquotes)  
+[4. Code Blocks](#4-code-blocks)  
+[5. Horizontal Rules](#5-horizontal-rules)  
+[6. Images](#6-images)  
+[7. Links](#7-links)  
+[8. Lists](#8-lists)  
+[9. Special Character](#9-special-character)  
+[10. Tables](#10-tables)  
+[11. Titles](#11-titles)  
+[12. GFM](#12-gfm)  
+[13. Writing on GitHub](#13-writing-on-github)
 
-## <a name="Anchors"> 1. Anchors </a>
-See [Table of Content](#TableOfContent) above.
+## 1. Anchors
+See [Table of Content](#table-of-content) above.
 
-## <a name="BlockElements"> 2. Block Elements </a>
-#### 2.1 Paragraph
+## 2. Block Elements
+### 2.1 Paragraph
 A paragraph is simple one or more consecutive lines of text, separated by one or more blank lines.
 
-#### 2.2 Line Breaks
+### 2.2 Line Breaks
 End a line with 2 spaces, rather than a `<br/>`.
 
-## <a name="Blockquotes"> 3. Blockquotes </a>
+## 3. Blockquotes
 > This is a blockquote with two paragraphs.
 >
 > This is the second paragraph, under one blank line.
 
-## <a name="CodeBlocks"> 4. Code Blocks </a>
+## 4. Code Blocks
 To produce a code block in Markdown, simply indent every line of the block by at least 4 spaces or 1 tab.
 
     This is a code block.
 
-#### 4.1 Inline code blocks
+### 4.1 Inline code blocks
 This is a `inline code block`
 
-#### 4.2 Syntax highlighting
+### 4.2 Syntax highlighting
 By specify a language.
 
 ```python
 import tensorflow as tf
 ```
 
-## <a name="HorizontalRules"> 5. Horizontal Rules </a>
+## 5. Horizontal Rules
+By three `*`, namely `***`.
+
 ***
 
-## <a name="Images"> 6. Images </a>
+## 6. Images
 ![Alternative text when cannot load image.](invalid_path)
 
 ![Alternative text when cannot load image.](https://avatars1.githubusercontent.com/u/8685355?v=3&s=96 "Optional title")
 
-## <a name="Links"> 7. Links </a>
+## 7. Links
 [I'm an inline-style link.](https://www.google.com/ncr)
 
 [I'm an inline-style link with title.](https://www.google.com/ncr "Google's Homepage")
@@ -69,23 +71,23 @@ import tensorflow as tf
 
 [I'm a relative reference to a repository file.](LICENSE)
 
-## <a name="Lists"> 8. Lists </a>
-#### 8.1 Unordered lists
+## 8. Lists
+### 8.1 Unordered lists
 > asterisks recommended
 
 * Asterisk
 
-#### 8.2 Ordered lists
-> numbers followed by period and a space)
+### 8.2 Ordered lists
+> numbers followed by period and a space
 
 1. Bird
 2. McHale
 3. Parish
 
-## <a name="SpecialCharacter"> 9. Special Character </a>
+## 9. Special Character
 Inside Markdown code spans and blocks, angle brackets(<>) and ampersands(&) are **always** encoded automatically.
 
-## <a name="Tables"> 10. Tables </a>
+## 10. Tables
 Tables aren't part of the core Markdown spec, but they are part of GFM (GitHub Flavored Markdown).
 
 | Tables | Are | Cool |
@@ -94,28 +96,26 @@ Tables aren't part of the core Markdown spec, but they are part of GFM (GitHub F
 | col 2 is | centered | $12 |
 | zebra stripes | are neat | $1 |
 
-## <a name="Titles"> 11. Titles </a>
+## 11. Titles
 > ## This is an H2
 > ### This is an H3
 >
 > #### This is an H4
 
-## <a name="GFM"> 12. GFM </a>
+## 12. GFM
 GitHub Flavored Markdown.  
-Some differences from traditional Markdown:
+Some differences from the standard Markdown:
 
-#### 12.1 URL autolinking
-GFM will autolink standard URLs:
+### 12.1 Automatic linking for URLs
+Any URL (like http://www.github.com/) will be automatically converted into a clickable link.
 
-* http://example.com
-
-#### 12.2 Strikethrough text
+### 12.2 Strikethrough text
 GFM adds syntax to create strikethrough text
 
 * ~~Mistaken text.~~
 
-#### 12.3 Fenced code blocks
-Just wrap your code in \`\`\` `some code` \`\`\`
+### 12.3 Fenced code blocks
+Just wrap your code in \`\`\` `some code` \`\`\` and specify a language
 
 ```javascript
 function test() {
@@ -123,37 +123,34 @@ function test() {
 }
 ```
 
-#### 12.4 Tables
+### 12.4 Tables
 See [Tables](#Tables) section.
 
-## <a name="WritingOnGitHub"> 13. Writing on GitHub </a>
-#### 13.1 Task lists
+## 13. Writing on GitHub
+### 13.1 Task lists
 * [x] @mentions, #refs, [links](fake_path), **formatting**, and tags are supported
 * [x] list syntax is required (any unordered or ordered list supported)
 * [x] this is a complete item
 * [ ] this is an incomplete item
 
-#### 13.2 References
+### 13.2 References
 Certain references are auto-inked:
 * SHA: a5c3785ed8d6a35868bc169f07e40e889087fd2e
-* User@SHA: jlord@a5c3785ed8d6a35868bc169f07e40e889087fd2e
-* User/Repository@SHA: jlord/sheetsee.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User@SHA: perphyyoung@a5c3785ed8d6a35868bc169f07e40e889087fd2e
+* User/Repository@SHA: perphyyoung/sample.js@a5c3785ed8d6a35868bc169f07e40e889087fd2e
 * #Num: #26
 * GH-Num: GH-26
-* User#Num: jlord#26
-* User/Repository#Num: jlord/sheetsee.js#26
+* User#Num: perphyyoung#26
+* User/Repository#Num: perphyyoung/sample.js#26
 
-#### 13.3 Features
+### 13.3 Features
 1. Name and Team @mentions autocomplete
 2. Emoji autocomplete, check out http://www.emoji-cheat-sheet.com
 3. Issue autocomplete (Typing # will bring up)
-4. Zen Mode (fullscreen) writing
+4. Zen Mode (full-screen) writing
 
-#### 13.4 Emoji
-:smile:
-
-The top 5 used Emojis on GitHub are:
-1. :shipit: `:shipit:`
+### 13.4 Emoji
+1. :smile: `:smile:`
 2. :sparkles: `:sparkles:`
 3. :-1: `:-1:`
 4. :+1: `:+1:`
